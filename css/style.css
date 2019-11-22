@@ -1,0 +1,155 @@
+/* ..................................
+
+				General
+
+.....................................- */
+html, body {
+	background-color: #e3e3e7;
+	position: relative;
+	height: 100%;
+	margin: 0;
+	
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.clearfix {
+	clear: both;
+}
+.fonts {
+	 font-family: 'Open Sans', sans-serif;
+}
+/* ..................................
+
+				Main
+
+.....................................- */
+
+.wrapper {
+	width: 1200px;
+	height: 860px;
+	
+	background-color: #fff;
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	
+	-webkit-box-shadow: 0px 35px 121px -39px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 35px 121px -39px rgba(0,0,0,1);
+	box-shadow: 0px 35px 121px -39px rgba(0,0,0,1);
+
+}
+
+/* ..................................
+
+				Content
+
+.....................................- */
+
+.card-left-top {
+	width: 600px;
+	height: 50%;
+	
+	background-size: cover; 
+	background-image: url(../img/Layer_20.jpg);
+	float: left;
+	
+}
+
+.card-content-right-top {
+	width: 600px;
+	height: 50%;
+	float: right;
+	text-align: center;
+	
+
+}
+.card-right-top {
+	margin-top: 132px;
+	display: inline-block;
+	
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 40px;
+	 font-weight: 300;
+	 color: #626262;
+	 line-height: 129%;
+	
+}
+	
+
+	
+	
+.card-content-left-bottom {
+	width: 600px;
+	height: 50%;
+	float:left;
+	text-align: center;
+	
+	
+}
+
+.card-left-bottom {
+	margin-top: 120px;
+	
+	display: inline-block;
+	
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 40px;
+	 font-weight: 300;
+	 color: #626262;
+	 line-height: 130%;
+	 
+	 
+	 
+	
+}
+.card-right-bottom {
+	width: 600px;
+	height: 50%;
+	background-size: cover; 
+	background-image: url(../img/Layer_21.jpg);
+	float: right;
+}
+.card-button {
+	margin-top: 38px;
+	
+	
+	background-color: #e27c2a;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	color: #fff;
+	line-height: 1;
+	text-align: center;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	
+	
+	border-radius: 7px;	
+	
+	width: 140px;
+	height: 40px;
+	display: inline-block;
+	padding-top: 12px;
+	-webkit-transition: 0.2s ease-in;
+	   -moz-transition: 0.2s ease-in;
+	    -ms-transition: 0.2s ease-in;
+	     -o-transition: 0.2s ease-in;
+	        transition: 0.2s ease-in;
+	
+}
+.card-button:hover {
+	background-color:#ce6767;
+	color: #fff;
+}
